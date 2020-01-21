@@ -11,7 +11,7 @@ public class DriverFactory {
 
 	public static WebDriver AbrirSite() {
 			driver = new ChromeDriver();
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\matheus.vieira\\Documents\\driver\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\matheus.vieira\\Documents\\driver\\chromedriver.exe");
 			driver.get("https://www.advantageonlineshopping.com/#/");
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

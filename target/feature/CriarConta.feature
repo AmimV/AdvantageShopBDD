@@ -1,8 +1,8 @@
 # language: pt
 Funcionalidade: Cadastrar Usuario
 
-  Cenario: Cadastrar um usuario com sucesso
-    Dado o usuario estiver na home do site
+	Contexto: 
+	  Dado o usuario estiver na home do site
     Quando clicar no menu de usuarios
     E clicar em register
     E preencho o userName "MatheusAmim"
@@ -19,6 +19,13 @@ Funcionalidade: Cadastrar Usuario
     E preencho o cep "066695-480"
     E clico no botao de concorda
     E clico em register
-    E confirmo se foi cadastrado com sucesso
-    E tiro uma screenshot
-    Entao fecho o navegador.
+   
+	
+	@CriarComSucesso
+  Cenario: Cadastrar um usuario com sucesso
+
+    Entao confirmo se fui cadastrado com sucesso, tirando uma screenShot
+
+   @CriarComFalha
+    Cenario: Mostrar que usuario ja existe ao tentar cadastrar
+    Entao confirmo se nao foi cadastrado, tirando uma screenshot

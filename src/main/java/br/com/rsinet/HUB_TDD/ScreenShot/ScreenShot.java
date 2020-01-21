@@ -23,9 +23,9 @@ public class ScreenShot {
 		File file = new File("Screenshots");
 
 		if (file.exists()) {
-			FileUtils.copyFile(srcfile, new File(caminho + "Screenshot_" + getTimeStamp() + ".png"));
+			System.out.println("Erro Print");
 		} else {
-			System.out.println("Error");
+			FileUtils.copyFile(srcfile, new File(caminho + "Screenshot_" + getTimeStamp() + ".png"));
 		}
 	}
 	

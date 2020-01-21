@@ -14,6 +14,7 @@ import br.com.rsinet.HUB_BDD.PageFactory.Home_Page;
 import br.com.rsinet.HUB_TDD.Excel.MassaDeDadosNovaConta;
 import br.com.rsinet.HUB_TDD.ScreenShot.PrintDiretorio;
 import br.com.rsinet.HUB_TDD.ScreenShot.ScreenShot;
+import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
@@ -32,7 +33,6 @@ public class Test_CriaConta_Steps {
 	@Quando("^clicar no menu de usuarios$")
 	public void clicar_no_menu_de_usuarios() throws Throwable {
 		inicio = PageFactory.initElements(driver, Home_Page.class);
-		Thread.sleep(2500);
 		inicio.Register();
 	}
 
@@ -112,22 +112,31 @@ public class Test_CriaConta_Steps {
 		cc.botao();
 	}
 
-	@Quando("^confirmo se foi cadastrado com sucesso$")
-	public void confirmo_se_foi_cadastrado_com_sucesso() throws Throwable {
+	@Entao("^confirmo se fui cadastrado com sucesso, tirando uma screenShot$")
+	public void confirmo_se_fui_cadastrado_com_sucesso_tirando_uma_screenShot() throws Exception {
 		MassaDeDadosNovaConta celula = new MassaDeDadosNovaConta();
+
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		Boolean element = wait.until(ExpectedConditions
 				.textToBePresentInElementLocated(By.xpath("/html/body/header/nav/ul/li[3]/a/span"), celula.Usuario()));
 		Assert.assertTrue(element);
-	}
-
-	@Quando("^tiro uma screenshot$")
-	public void tiro_uma_screenshot() throws Throwable {
+		System.out.println(element);
 		ScreenShot.getScreenShots(PrintDiretorio.criaConta, driver);
+
 	}
 
-	@Entao("^fecho o navegador\\.$")
-	public void fecho_o_navegador() throws Throwable {
+	@Entao("^confirmo se nao foi cadastrado, tirando uma screenshot$")
+	public void confirmo_se_nao_foi_cadastrado_tirando_uma_screenshot() throws Exception {
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		Boolean element = wait.until(ExpectedConditions.textToBePresentInElementLocated(
+				By.xpath("/html/body/div[3]/section/article/sec-form/div[2]/label[1]"), "User name already exists"));
+		System.out.println(element);
+		ScreenShot.getScreenShots(PrintDiretorio.criaConta, driver);
+
+	}
+
+	@After
+	public void fechar() {
 		DriverFactory.fecharChrome(driver);
 	}
 
