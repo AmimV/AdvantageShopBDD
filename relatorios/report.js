@@ -33,14 +33,14 @@ formatter.match({
   "location": "Test_PesquisaProdutoLupa.que_estou_na_home_do_site()"
 });
 formatter.result({
-  "duration": 10997249900,
+  "duration": 11278077800,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.eu_clicar_no_icone_da_lupa()"
 });
 formatter.result({
-  "duration": 113551800,
+  "duration": 115534200,
   "status": "passed"
 });
 formatter.scenario({
@@ -86,47 +86,47 @@ formatter.match({
   "location": "Test_PesquisaProdutoLupa.escrever_o_nome_de_um_produto()"
 });
 formatter.result({
-  "duration": 582385500,
+  "duration": 636058800,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.fechar_a_lupa()"
 });
 formatter.result({
-  "duration": 301257600,
+  "duration": 262946400,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.clicar_em_um_produto()"
 });
 formatter.result({
-  "duration": 519837500,
+  "duration": 2065082700,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.confirmar_se_estou_na_pagina_do_produto()"
 });
 formatter.result({
-  "duration": 22178000,
+  "duration": 21155200,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.tiro_a_ScreenShot()"
 });
 formatter.result({
-  "duration": 304952100,
+  "duration": 324519600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 604381400,
+  "duration": 71500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 322000,
+  "duration": 616096900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 217300,
+  "duration": 187400,
   "status": "passed"
 });
 formatter.background({
@@ -150,14 +150,14 @@ formatter.match({
   "location": "Test_PesquisaProdutoLupa.que_estou_na_home_do_site()"
 });
 formatter.result({
-  "duration": 10244559500,
+  "duration": 10306730900,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.eu_clicar_no_icone_da_lupa()"
 });
 formatter.result({
-  "duration": 66049700,
+  "duration": 129366400,
   "status": "passed"
 });
 formatter.scenario({
@@ -193,33 +193,33 @@ formatter.match({
   "location": "Test_PesquisaProdutoLupa.escrever_o_nome_de_um_produto_inexistente()"
 });
 formatter.result({
-  "duration": 147534800,
+  "duration": 163920500,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.confirmo_se_nao_tem_nenhum_produto_na_tela()"
 });
 formatter.result({
-  "duration": 267269400,
+  "duration": 363339800,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.tiro_uma_ScreenShot()"
 });
 formatter.result({
-  "duration": 284574300,
+  "duration": 362235800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 630947400,
+  "duration": 45500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 72700,
+  "duration": 631049700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 61200,
+  "duration": 99800,
   "status": "passed"
 });
 });

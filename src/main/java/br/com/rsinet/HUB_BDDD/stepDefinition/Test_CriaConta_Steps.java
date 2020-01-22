@@ -41,64 +41,64 @@ public class Test_CriaConta_Steps {
 		inicio.ClicarEmRegister(driver);
 	}
 
-	@Quando("^preencho o userName \"([^\"]*)\"$")
-	public void preencho_o_userName(String arg1) throws Throwable {
+	@Quando("^preencho o userName$")
+	public void preencho_o_userName() throws Throwable {
 		cc = PageFactory.initElements(driver, CriarConta_Page.class);
 		cc.Usuario();
 	}
 
-	@Quando("^preencho o email \"([^\"]*)\"$")
-	public void preencho_o_email(String arg1) throws Throwable {
+	@Quando("^preencho o email$")
+	public void preencho_o_email() throws Throwable {
 		cc.email();
 	}
 
-	@Quando("^preencho a senha \"([^\"]*)\"$")
-	public void preencho_a_senha(String arg1) throws Throwable {
+	@Quando("^preencho a senha$")
+	public void preencho_a_senha() throws Throwable {
 		cc.senha();
 	}
 
-	@Quando("^preencho confirmarSenha \"([^\"]*)\"$")
-	public void preencho_confirmarSenha(String arg1) throws Throwable {
+	@Quando("^preencho confirmarSenha$")
+	public void preencho_confirmarSenha() throws Throwable {
 		cc.ConfirmarSenha();
 	}
 
-	@Quando("^preencho o primeiroNome \"([^\"]*)\"$")
-	public void preencho_o_primeiroNome(String arg1) throws Throwable {
+	@Quando("^preencho o primeiroNome$")
+	public void preencho_o_primeiroNome() throws Throwable {
 		cc.PrimeiroNome();
 	}
 
-	@Quando("^preencho o ultimoNome \"([^\"]*)\"$")
-	public void preencho_o_ultimoNome(String arg1) throws Throwable {
+	@Quando("^preencho o ultimoNome$")
+	public void preencho_o_ultimoNome() throws Throwable {
 		cc.UltimoNome();
 	}
 
-	@Quando("^preencho o telefone \"([^\"]*)\"$")
-	public void preencho_o_telefone(String arg1) throws Throwable {
+	@Quando("^preencho o telefone$")
+	public void preencho_o_telefone() throws Throwable {
 		cc.Telefone();
 	}
 
-	@Quando("^preencho a cidade \"([^\"]*)\"$")
-	public void preencho_a_cidade(String arg1) throws Throwable {
+	@Quando("^preencho a cidade$")
+	public void preencho_a_cidade() throws Throwable {
 		cc.Cidade();
 	}
 
-	@Quando("^preencho o pais \"([^\"]*)\"$")
-	public void preencho_o_pais(String arg1) throws Throwable {
+	@Quando("^preencho o pais$")
+	public void preencho_o_pais() throws Throwable {
 		cc.Pais();
 	}
 
-	@Quando("^preencho o endereco \"([^\"]*)\"$")
-	public void preencho_o_endereco(String arg1) throws Throwable {
+	@Quando("^preencho o endereco$")
+	public void preencho_o_endereco() throws Throwable {
 		cc.Endereco();
 	}
 
-	@Quando("^preencho o estadoEMais \"([^\"]*)\"$")
-	public void preencho_o_estadoEMais(String arg1) throws Throwable {
+	@Quando("^preencho o estadoEMais$")
+	public void preencho_o_estadoEMais() throws Throwable {
 		cc.Estado();
 	}
 
-	@Quando("^preencho o cep \"([^\"]*)\"$")
-	public void preencho_o_cep(String arg1) throws Throwable {
+	@Quando("^preencho o cep$")
+	public void preencho_o_cep() throws Throwable {
 		cc.Cep();
 	}
 
