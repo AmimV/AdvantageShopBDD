@@ -3,11 +3,9 @@ package br.com.rsinet.HUB_BDDD.stepDefinition;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import br.com.rsinet.HUB_BDD.PageFactory.CriarConta_Page;
 import br.com.rsinet.HUB_BDD.PageFactory.DriverFactory;
 import br.com.rsinet.HUB_BDD.PageFactory.Home_Page;
@@ -84,7 +82,7 @@ public class Test_CriaConta_Steps {
 
 	@Quando("^preencho o pais$")
 	public void preencho_o_pais() throws Throwable {
-		cc.Pais();
+		cc.Pais(driver);
 	}
 
 	@Quando("^preencho o endereco$")
@@ -112,7 +110,7 @@ public class Test_CriaConta_Steps {
 		cc.botao();
 	}
 
-	@Entao("^confirmo se fui cadastrado com sucesso, tirando uma screenShot$")
+	@Entao("^confirmo se fui cadastrado com sucesso, tiro uma screenShot$")
 	public void confirmo_se_fui_cadastrado_com_sucesso_tirando_uma_screenShot() throws Exception {
 		MassaDeDadosNovaConta celula = new MassaDeDadosNovaConta();
 
@@ -120,23 +118,22 @@ public class Test_CriaConta_Steps {
 		Boolean element = wait.until(ExpectedConditions
 				.textToBePresentInElementLocated(By.xpath("/html/body/header/nav/ul/li[3]/a/span"), celula.Usuario()));
 		Assert.assertTrue(element);
-		System.out.println(element);
 		ScreenShot.getScreenShots(PrintDiretorio.criaConta, driver);
 
 	}
 
-	@Entao("^confirmo se nao foi cadastrado, tirando uma screenshot$")
+	@Entao("^confirmo se nao foi cadastrado, tiro uma screenshot$")
 	public void confirmo_se_nao_foi_cadastrado_tirando_uma_screenshot() throws Exception {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		Boolean element = wait.until(ExpectedConditions.textToBePresentInElementLocated(
 				By.xpath("/html/body/div[3]/section/article/sec-form/div[2]/label[1]"), "User name already exists"));
-		System.out.println(element);
+		Assert.assertTrue(element);
 		ScreenShot.getScreenShots(PrintDiretorio.criaConta, driver);
 
 	}
 
 	@After
-	public void fechar() {
+	public void fechar() throws Exception {
 		DriverFactory.fecharChrome(driver);
 	}
 

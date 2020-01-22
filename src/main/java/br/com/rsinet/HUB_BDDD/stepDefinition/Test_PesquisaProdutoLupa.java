@@ -1,8 +1,10 @@
 package br.com.rsinet.HUB_BDDD.stepDefinition;
 
 import java.util.concurrent.TimeUnit;
+
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -72,7 +74,6 @@ public class Test_PesquisaProdutoLupa {
 	@Quando("^confirmo se nao tem nenhum produto na tela$")
 	public void confirmo_se_nao_tem_nenhum_produto_na_tela() throws Throwable {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-
 		Boolean nenhumEncontrado = wait.until(ExpectedConditions.textToBePresentInElementLocated(
 				By.xpath("/html/body/div[3]/section/article/div[3]/div/label/span"), "No results for"));
 		Assert.assertTrue(nenhumEncontrado);
@@ -80,6 +81,9 @@ public class Test_PesquisaProdutoLupa {
 
 	@Entao("^tiro uma ScreenShot$")
 	public void tiro_uma_ScreenShot() throws Throwable {
+	     JavascriptExecutor js;
+	     js = (JavascriptExecutor) driver;
+	        js.executeAsyncScript("window.setTimeout(arguments[arguments.length - 1], 1000);");
 		ScreenShot.getScreenShots(PrintDiretorio.pesquisaLupa, driver);
 	}
 

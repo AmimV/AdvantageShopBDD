@@ -32,13 +32,13 @@ public class Tablet_Page {
 	
 	public void tela (WebDriver driver) {
 		Display.click();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		spec1.click();
 		Display.click();
 	}
 	public void Processador (WebDriver driver) {
 		processador.click();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		Atom_x5.click();
 		processador.click();
 	}

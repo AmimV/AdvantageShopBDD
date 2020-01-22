@@ -46,7 +46,7 @@ public class CriarConta_Page {
 	@FindBy(how = How.NAME, using = "postal_codeRegisterPage")
 	private WebElement cep;
 
-	@FindBy(how = How.NAME, using = "i_agree")
+	@FindBy(how = How.XPATH, using = "/html/body/div[3]/section/article/sec-form/div[1]/div[2]/div/sec-view/div/input")
 	private WebElement aceitar;
 
 	@FindBy(how = How.ID, using = "register_btnundefined")
@@ -85,7 +85,7 @@ public class CriarConta_Page {
 
 	public void Pais(WebDriver driver) throws Exception {
 		Select country = new Select(driver.findElement(By.name("countryListboxRegisterPage")));
-		country.selectByVisibleText("Brazil");
+		country.selectByVisibleText(celula.Pais());
 	}
 
 	public void Cidade() throws Exception {

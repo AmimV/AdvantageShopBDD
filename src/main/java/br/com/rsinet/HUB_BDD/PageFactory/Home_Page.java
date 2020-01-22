@@ -20,7 +20,6 @@ public class Home_Page {
 
 	public void Register() throws InterruptedException {
 	
-		//Thread.sleep(3000);
 		Menu.click();
 	}
 

@@ -24,8 +24,8 @@ Funcionalidade: Cadastrar Usuario
 	@CriarComSucesso
   Cenario: Cadastrar um usuario com sucesso
 
-    Entao confirmo se fui cadastrado com sucesso, tirando uma screenShot
+    Entao confirmo se fui cadastrado com sucesso, tiro uma screenShot
 
    @CriarComFalha
     Cenario: Mostrar que usuario ja existe ao tentar cadastrar
-    Entao confirmo se nao foi cadastrado, tirando uma screenshot
+    Entao confirmo se nao foi cadastrado, tiro uma screenshot
