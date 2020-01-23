@@ -6,7 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import br.com.rsinet.HUB_TDD.Excel.MassaDeDadosPesqLupa;
+
+import br.com.rsinet.HUB_BDD.Excel.MassaDeDadosPesqLupa;
 
 public class PesquisaNaLupa_Page {
 	MassaDeDadosPesqLupa celula = new MassaDeDadosPesqLupa();

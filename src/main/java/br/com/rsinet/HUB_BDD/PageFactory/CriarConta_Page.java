@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.Select;
 
-import br.com.rsinet.HUB_TDD.Excel.MassaDeDadosNovaConta;
+import br.com.rsinet.HUB_BDD.Excel.MassaDeDadosNovaConta;
 
 public class CriarConta_Page {
 	MassaDeDadosNovaConta celula = new MassaDeDadosNovaConta();

@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import br.com.rsinet.HUB_TDD.Excel.MassaDeDadosPesqHome;
+import br.com.rsinet.HUB_BDD.Excel.MassaDeDadosPesqHome;
 
 public class Tablet_Page {
 	MassaDeDadosPesqHome celula = new MassaDeDadosPesqHome();

@@ -1,4 +1,4 @@
-package br.com.rsinet.HUB_BDDD.stepDefinition;
+package br.com.rsinet.HUB_BDD.stepDefinition;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,8 +12,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import br.com.rsinet.HUB_BDD.PageFactory.DriverFactory;
 import br.com.rsinet.HUB_BDD.PageFactory.PesquisaNaLupa_Page;
-import br.com.rsinet.HUB_TDD.ScreenShot.PrintDiretorio;
-import br.com.rsinet.HUB_TDD.ScreenShot.ScreenShot;
+import br.com.rsinet.HUB_BDD.ScreenShot.PrintDiretorio;
+import br.com.rsinet.HUB_BDD.ScreenShot.ScreenShot;
 import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Entao;

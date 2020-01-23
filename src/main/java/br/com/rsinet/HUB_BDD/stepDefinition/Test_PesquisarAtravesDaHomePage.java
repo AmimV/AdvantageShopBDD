@@ -1,4 +1,4 @@
-package br.com.rsinet.HUB_BDDD.stepDefinition;
+package br.com.rsinet.HUB_BDD.stepDefinition;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,8 +10,8 @@ import org.testng.Assert;
 import br.com.rsinet.HUB_BDD.PageFactory.DriverFactory;
 import br.com.rsinet.HUB_BDD.PageFactory.Home_Page;
 import br.com.rsinet.HUB_BDD.PageFactory.Tablet_Page;
-import br.com.rsinet.HUB_TDD.ScreenShot.PrintDiretorio;
-import br.com.rsinet.HUB_TDD.ScreenShot.ScreenShot;
+import br.com.rsinet.HUB_BDD.ScreenShot.PrintDiretorio;
+import br.com.rsinet.HUB_BDD.ScreenShot.ScreenShot;
 import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Entao;
