@@ -2,6 +2,7 @@ package br.com.rsinet.HUB_BDDD.stepDefinition;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -102,32 +103,35 @@ public class Test_CriaConta_Steps {
 
 	@Quando("^clico no botao de concorda$")
 	public void clico_no_botao_de_concorda() throws Throwable {
-		cc.Aceitar();
+		cc.Aceitar(driver);
 	}
 
 	@Quando("^clico em register$")
 	public void clico_em_register() throws Throwable {
 		cc.botao();
+		cc.Espera(driver);
 	}
 
 	@Entao("^confirmo se fui cadastrado com sucesso, tiro uma screenShot$")
-	public void confirmo_se_fui_cadastrado_com_sucesso_tirando_uma_screenShot() throws Exception {
+	public void confirmo_se_fui_cadastrado_com_sucesso_tiro_uma_screenShot() throws Throwable {
 		MassaDeDadosNovaConta celula = new MassaDeDadosNovaConta();
 
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		Boolean element = wait.until(ExpectedConditions
 				.textToBePresentInElementLocated(By.xpath("/html/body/header/nav/ul/li[3]/a/span"), celula.Usuario()));
 		Assert.assertTrue(element);
+		
 		ScreenShot.getScreenShots(PrintDiretorio.criaConta, driver);
 
 	}
 
 	@Entao("^confirmo se nao foi cadastrado, tiro uma screenshot$")
-	public void confirmo_se_nao_foi_cadastrado_tirando_uma_screenshot() throws Exception {
+	public void confirmo_se_nao_foi_cadastrado_tiro_uma_screenshot() throws Throwable {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		Boolean element = wait.until(ExpectedConditions.textToBePresentInElementLocated(
 				By.xpath("/html/body/div[3]/section/article/sec-form/div[2]/label[1]"), "User name already exists"));
 		Assert.assertTrue(element);
+		
 		ScreenShot.getScreenShots(PrintDiretorio.criaConta, driver);
 
 	}

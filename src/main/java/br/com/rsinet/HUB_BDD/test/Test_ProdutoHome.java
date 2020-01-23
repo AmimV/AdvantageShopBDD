@@ -7,8 +7,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "target/feature/PesquisarNaHomePage.feature",
-		glue = { "br.com.rsinet.HUB_BDDD.stepDefinition" },plugin = { "pretty", "html:relatorios" })
+		features = "target/feature/",
+		glue = { "br.com.rsinet.HUB_BDDD.stepDefinition" },plugin = { "pretty", "html:RelatorioPesquisaHome" })
 
 public class Test_ProdutoHome {
 

@@ -1,6 +1,9 @@
 package br.com.rsinet.HUB_BDD.PageFactory;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -104,11 +107,22 @@ public class CriarConta_Page {
 		cep.sendKeys(celula.Cep());
 	}
 
-	public void Aceitar() {
+	public void Aceitar(WebDriver driver) throws InterruptedException {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript ("window.scrollBy (0,100)");
 		aceitar.click();
 	}
 
 	public void botao() {
 		botao.click();
+	}
+	
+	public void Espera(WebDriver driver) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript ("window.scrollBy (0,100)");
+	}
+	
+	public void oirs () {
+		
 	}
 }
