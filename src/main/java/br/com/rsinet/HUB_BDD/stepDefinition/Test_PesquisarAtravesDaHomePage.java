@@ -6,7 +6,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
 import br.com.rsinet.HUB_BDD.PageFactory.DriverFactory;
 import br.com.rsinet.HUB_BDD.PageFactory.Home_Page;
 import br.com.rsinet.HUB_BDD.PageFactory.Tablet_Page;
@@ -59,8 +58,7 @@ public class Test_PesquisarAtravesDaHomePage {
 	@Quando("^escolher uma opcao de processador$")
 	public void escolher_uma_opcao_de_processador() throws InterruptedException {
 		Tablet_Page click = PageFactory.initElements(driver, Tablet_Page.class);
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id("18")));
+	
 		click.Processador(driver);		
 	}
 
@@ -78,6 +76,6 @@ public class Test_PesquisarAtravesDaHomePage {
 	@After
 	public void fecharChrome() {
 		DriverFactory.fecharChrome(driver);
-	}
+ 	}
 
 }

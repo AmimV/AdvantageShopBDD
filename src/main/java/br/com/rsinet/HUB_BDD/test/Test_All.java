@@ -7,10 +7,9 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "target/feature/CriarConta.feature",
-		glue = { "br.com.rsinet.HUB_BDDD.stepDefinition" },
-		plugin = { "pretty", "html:relatorioCriaConta" })
+		features = "target/feature/",
+		glue = { "br.com.rsinet.HUB_BDD.stepDefinition" },plugin = { "pretty", "html:relatorios" })
 
-public class Test_CriarConta {
+public class Test_All {
 
 }
