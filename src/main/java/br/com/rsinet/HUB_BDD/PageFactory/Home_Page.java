@@ -1,6 +1,5 @@
 package br.com.rsinet.HUB_BDD.PageFactory;
 
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -11,9 +10,13 @@ import org.openqa.selenium.support.How;
 
 public class Home_Page {
 	private WebDriver driver;
-//	private WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), 10);
+	
+	public Home_Page(WebDriver driver) {
+		this.driver = driver;
+	}
+	
 	@FindBy(how = How.ID, using = "menuUser")
-	public WebElement Menu;
+	private WebElement Menu;
 
 	@FindBy(how = How.ID, using = "tabletsTxt")
 	private WebElement tablets;
@@ -23,8 +26,7 @@ public class Home_Page {
 		Menu.click();
 	}
 
-	public void ClicarEmRegister(WebDriver driver) {
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	public void ClicarEmRegister() {
 		WebElement element = driver.findElement(By.xpath("/html/body/login-modal/div/div/div[3]/a[2]"));
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		executor.executeScript("arguments[0].click();", element);

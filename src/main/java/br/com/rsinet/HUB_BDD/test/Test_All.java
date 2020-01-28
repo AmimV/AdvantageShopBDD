@@ -8,7 +8,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "target/feature/",
-		glue = { "br.com.rsinet.HUB_BDD.stepDefinition" },plugin = { "pretty", "html:relatorios" })
+		glue = { "br.com.rsinet.HUB_BDD.stepDefinition" },
+		plugin = { "pretty", "html:relatorios" })
 
 public class Test_All {
 

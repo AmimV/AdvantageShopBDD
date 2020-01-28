@@ -19,7 +19,7 @@ import cucumber.api.java.pt.Quando;
 
 public class Test_CriaConta_Steps {
 
-	public static WebDriver driver;
+	private WebDriver driver;
 	private CriarConta_Page cc;
 	private Home_Page inicio;
 
@@ -36,7 +36,7 @@ public class Test_CriaConta_Steps {
 
 	@Quando("^clicar em register$")
 	public void clicar_em_register() throws Throwable {
-		inicio.ClicarEmRegister(driver);
+		inicio.ClicarEmRegister();
 	}
 
 	@Quando("^preencho o userName$")
@@ -82,7 +82,7 @@ public class Test_CriaConta_Steps {
 
 	@Quando("^preencho o pais$")
 	public void preencho_o_pais() throws Throwable {
-		cc.Pais(driver);
+		cc.Pais();
 	}
 
 	@Quando("^preencho o endereco$")
@@ -102,13 +102,12 @@ public class Test_CriaConta_Steps {
 
 	@Quando("^clico no botao de concorda$")
 	public void clico_no_botao_de_concorda() throws Throwable {
-		cc.Aceitar(driver);
+		cc.Aceitar();
 	}
 
 	@Quando("^clico em register$")
 	public void clico_em_register() throws Throwable {
 		cc.botao();
-		cc.Espera(driver);
 	}
 
 	@Entao("^confirmo se fui cadastrado com sucesso, tiro uma screenShot$")

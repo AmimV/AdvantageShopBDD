@@ -17,7 +17,7 @@ import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
 
 public class Test_PesquisarAtravesDaHomePage {
-	public static WebDriver driver;
+	private WebDriver driver;
 	private Home_Page inicio;
 	private Tablet_Page tablets;
 	
@@ -35,7 +35,7 @@ public class Test_PesquisarAtravesDaHomePage {
 	@Quando("^selecionar um dos tablets da lista$")
 	public void selecionar_um_dos_tablets_da_lista() throws Throwable {
 		tablets = PageFactory.initElements(driver, Tablet_Page.class);
-		tablets.Hp_Pro(driver);
+		tablets.Hp_Pro();
 	}
 
 	@Quando("^confirmar que foi selecionado$")
@@ -52,14 +52,14 @@ public class Test_PesquisarAtravesDaHomePage {
 	@Quando("^escolher uma opcao de tamanho de tela$")
 	public void escolher_uma_opcao_de_tamanho_de_tela() throws Throwable {
 		Tablet_Page click = PageFactory.initElements(driver, Tablet_Page.class);
-		click.tela(driver);
+		click.tela();
 	}
 
 	@Quando("^escolher uma opcao de processador$")
 	public void escolher_uma_opcao_de_processador() throws InterruptedException {
 		Tablet_Page click = PageFactory.initElements(driver, Tablet_Page.class);
 	
-		click.Processador(driver);		
+		click.Processador();		
 	}
 
 	@Quando("^confirmar se retorna algum tablet$")

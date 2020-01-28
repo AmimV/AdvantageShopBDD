@@ -21,12 +21,11 @@ import cucumber.api.java.pt.Quando;
 
 public class Test_PesquisaProdutoLupa {
 
-	public static WebDriver driver;
+	private WebDriver driver;
 	private PesquisaNaLupa_Page pesq;
 
 	@Dado("^que estou na home do site$")
 	public void que_estou_na_home_do_site() throws Throwable {
-
 		driver = DriverFactory.AbrirSite();
 
 	}
@@ -34,7 +33,6 @@ public class Test_PesquisaProdutoLupa {
 	@Quando("^eu clicar no icone da lupa$")
 	public void eu_clicar_no_icone_da_lupa() throws Throwable {
 		pesq = PageFactory.initElements(driver, PesquisaNaLupa_Page.class);
-
 		pesq.ClicarLupa();
 	}
 
@@ -51,13 +49,13 @@ public class Test_PesquisaProdutoLupa {
 	@Quando("^clicar em um produto$")
 	public void clicar_em_um_produto() throws Throwable {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		pesq.ClicarEmProduto(driver);
+		pesq.ClicarEmProduto();
 	}
 
 	@Quando("^confirmar se estou na pagina do produto$")
 	public void confirmar_se_estou_na_pagina_do_produto() throws Throwable {
 
-		Assert.assertTrue(driver.getPageSource().contains("Headset H390"));
+		pesq.ConfereSeEstaNoProduto();
 
 	}
 

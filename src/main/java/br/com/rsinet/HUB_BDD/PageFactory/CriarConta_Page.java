@@ -1,6 +1,6 @@
 package br.com.rsinet.HUB_BDD.PageFactory;
 
-import java.util.concurrent.TimeUnit;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -13,7 +13,12 @@ import org.openqa.selenium.support.ui.Select;
 import br.com.rsinet.HUB_BDD.Excel.MassaDeDadosNovaConta;
 
 public class CriarConta_Page {
-	MassaDeDadosNovaConta celula = new MassaDeDadosNovaConta();
+	private MassaDeDadosNovaConta celula = new MassaDeDadosNovaConta();
+	private WebDriver driver;
+		
+		public CriarConta_Page(WebDriver driver) {
+			this.driver = driver;
+		}
 
 
 	@FindBy(how = How.NAME, using = "usernameRegisterPage")
@@ -86,7 +91,7 @@ public class CriarConta_Page {
 		telefone.sendKeys(celula.Telefone());
 	}
 
-	public void Pais(WebDriver driver) throws Exception {
+	public void Pais() throws Exception {
 		Select country = new Select(driver.findElement(By.name("countryListboxRegisterPage")));
 		country.selectByVisibleText(celula.Pais());
 	}
@@ -107,9 +112,9 @@ public class CriarConta_Page {
 		cep.sendKeys(celula.Cep());
 	}
 
-	public void Aceitar(WebDriver driver) throws InterruptedException {
+	public void Aceitar() throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript ("window.scrollBy (0,100)");
+		js.executeScript ("window.scrollBy (0,200)");
 		aceitar.click();
 	}
 
@@ -117,12 +122,4 @@ public class CriarConta_Page {
 		botao.click();
 	}
 	
-	public void Espera(WebDriver driver) {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript ("window.scrollBy (0,100)");
-	}
-	
-	public void oirs () {
-		
-	}
 }

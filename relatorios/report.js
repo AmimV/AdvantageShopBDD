@@ -34,17 +34,26 @@ formatter.step({
   "name": "clicar em register",
   "keyword": "E "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.o_usuario_estiver_na_home_do_site()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 11569034700,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "Test_CriaConta_Steps.clicar_no_menu_de_usuarios()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 241894400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.clicar_em_register()"
+});
+formatter.result({
+  "duration": 114669900,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 12,
@@ -135,65 +144,122 @@ formatter.step({
   "name": "confirmo se fui cadastrado com sucesso, tiro uma screenShot",
   "keyword": "Entao "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_userName()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1193807400,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_email()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 267350500,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_a_senha()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 130581100,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_confirmarSenha()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 149412400,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_primeiroNome()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 196672100,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_ultimoNome()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 127484300,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_telefone()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 264434600,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_a_cidade()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 154678500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_pais()"
+});
+formatter.result({
+  "duration": 1100675500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_endereco()"
+});
+formatter.result({
+  "duration": 281318800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_estadoEMais()"
+});
+formatter.result({
+  "duration": 253939500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_cep()"
+});
+formatter.result({
+  "duration": 177329100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.clico_no_botao_de_concorda()"
+});
+formatter.result({
+  "duration": 128872600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.clico_em_register()"
+});
+formatter.result({
+  "duration": 134790700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.confirmo_se_fui_cadastrado_com_sucesso_tiro_uma_screenShot()"
+});
+formatter.result({
+  "duration": 1505330600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 127200,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 56600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 661876600,
+  "status": "passed"
 });
 formatter.background({
   "line": 4,
@@ -217,17 +283,26 @@ formatter.step({
   "name": "clicar em register",
   "keyword": "E "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.o_usuario_estiver_na_home_do_site()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 10175778700,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "Test_CriaConta_Steps.clicar_no_menu_de_usuarios()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 153018500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.clicar_em_register()"
+});
+formatter.result({
+  "duration": 129093300,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 30,
@@ -318,65 +393,122 @@ formatter.step({
   "name": "confirmo se nao foi cadastrado, tiro uma screenshot",
   "keyword": "Entao "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_userName()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 424830500,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_email()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 478895100,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_a_senha()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 151582100,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_confirmarSenha()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 162662900,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_primeiroNome()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 209392300,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_ultimoNome()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 167115900,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_telefone()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 214561800,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_a_cidade()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 150968900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_pais()"
+});
+formatter.result({
+  "duration": 1542687300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_endereco()"
+});
+formatter.result({
+  "duration": 262736400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_estadoEMais()"
+});
+formatter.result({
+  "duration": 202295200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.preencho_o_cep()"
+});
+formatter.result({
+  "duration": 174296400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.clico_no_botao_de_concorda()"
+});
+formatter.result({
+  "duration": 179884300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.clico_em_register()"
+});
+formatter.result({
+  "duration": 129675500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_CriaConta_Steps.confirmo_se_nao_foi_cadastrado_tiro_uma_screenshot()"
+});
+formatter.result({
+  "duration": 956700800,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 37500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 25300,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 658091400,
+  "status": "passed"
 });
 formatter.uri("PesquisaLupa.feature");
 formatter.feature({
@@ -409,13 +541,19 @@ formatter.step({
   "name": "eu clicar no icone da lupa",
   "keyword": "Quando "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_PesquisaProdutoLupa.que_estou_na_home_do_site()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 10298788100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_PesquisaProdutoLupa.eu_clicar_no_icone_da_lupa()"
+});
+formatter.result({
+  "duration": 151051400,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 9,
@@ -456,25 +594,52 @@ formatter.step({
   "name": "tiro a ScreenShot",
   "keyword": "Entao "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_PesquisaProdutoLupa.escrever_o_nome_de_um_produto()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 486758000,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_PesquisaProdutoLupa.fechar_a_lupa()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 668692900,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "Test_PesquisaProdutoLupa.clicar_em_um_produto()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 124614000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_PesquisaProdutoLupa.confirmar_se_estou_na_pagina_do_produto()"
+});
+formatter.result({
+  "duration": 251941400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_PesquisaProdutoLupa.tiro_a_ScreenShot()"
+});
+formatter.result({
+  "duration": 388529800,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 655055000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 25600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 7400,
+  "status": "passed"
 });
 formatter.background({
   "line": 4,
@@ -493,13 +658,19 @@ formatter.step({
   "name": "eu clicar no icone da lupa",
   "keyword": "Quando "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_PesquisaProdutoLupa.que_estou_na_home_do_site()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 10333663000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_PesquisaProdutoLupa.eu_clicar_no_icone_da_lupa()"
+});
+formatter.result({
+  "duration": 72149000,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 18,
@@ -530,17 +701,38 @@ formatter.step({
   "name": "tiro uma ScreenShot",
   "keyword": "Entao "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_PesquisaProdutoLupa.escrever_o_nome_de_um_produto_inexistente()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 194758700,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "Test_PesquisaProdutoLupa.confirmo_se_nao_tem_nenhum_produto_na_tela()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 186714000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_PesquisaProdutoLupa.tiro_uma_ScreenShot()"
+});
+formatter.result({
+  "duration": 1504590400,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 686854000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 58700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 38900,
+  "status": "passed"
 });
 formatter.uri("PesquisarNaHomePage.feature");
 formatter.feature({
@@ -573,48 +765,81 @@ formatter.step({
   "name": "eu clicar em tablet",
   "keyword": "Quando "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_PesquisarAtravesDaHomePage.que_estou_na_pagina_inicial_do_site()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 10303241400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_PesquisarAtravesDaHomePage.eu_clicar_em_tablet()"
+});
+formatter.result({
+  "duration": 96927400,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 8,
+  "line": 9,
   "name": "clicar em tablets na pagina inciial, depois clicar em um dos tablets da lista",
   "description": "",
   "id": "pesquisa-atraves-da-pagina-inicial;clicar-em-tablets-na-pagina-inciial,-depois-clicar-em-um-dos-tablets-da-lista",
   "type": "scenario",
-  "keyword": "Cenario"
+  "keyword": "Cenario",
+  "tags": [
+    {
+      "line": 8,
+      "name": "@PesquisaTabletComSucesso"
+    }
+  ]
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "selecionar um dos tablets da lista",
   "keyword": "E "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "confirmar que foi selecionado",
   "keyword": "E "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "confirmo com uma ScreenShot",
   "keyword": "Entao "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_PesquisarAtravesDaHomePage.selecionar_um_dos_tablets_da_lista()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 515795500,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "Test_PesquisarAtravesDaHomePage.confirmar_que_foi_selecionado()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 200619600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_PesquisarAtravesDaHomePage.confirmo_com_uma_ScreenShot()"
+});
+formatter.result({
+  "duration": 324252100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 17000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 684051200,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 27600,
+  "status": "passed"
 });
 formatter.background({
   "line": 4,
@@ -633,56 +858,92 @@ formatter.step({
   "name": "eu clicar em tablet",
   "keyword": "Quando "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_PesquisarAtravesDaHomePage.que_estou_na_pagina_inicial_do_site()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 10181791600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_PesquisarAtravesDaHomePage.eu_clicar_em_tablet()"
+});
+formatter.result({
+  "duration": 121290500,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 13,
+  "line": 15,
   "name": "clicar em tablets escolher especificacoes que nao tem em nenhum tablet",
   "description": "",
   "id": "pesquisa-atraves-da-pagina-inicial;clicar-em-tablets-escolher-especificacoes-que-nao-tem-em-nenhum-tablet",
   "type": "scenario",
-  "keyword": "Cenario"
+  "keyword": "Cenario",
+  "tags": [
+    {
+      "line": 14,
+      "name": "@PesquisaTabletComFalha"
+    }
+  ]
 });
 formatter.step({
-  "line": 14,
+  "line": 16,
   "name": "escolher uma opcao de tamanho de tela",
   "keyword": "E "
 });
 formatter.step({
-  "line": 15,
+  "line": 17,
   "name": "escolher uma opcao de processador",
   "keyword": "E "
 });
 formatter.step({
-  "line": 16,
+  "line": 18,
   "name": "confirmar se retorna algum tablet",
   "keyword": "E "
 });
 formatter.step({
-  "line": 17,
+  "line": 19,
   "name": "tirar uma screenshot",
   "keyword": "Entao "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_PesquisarAtravesDaHomePage.escolher_uma_opcao_de_tamanho_de_tela()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 911711300,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Test_PesquisarAtravesDaHomePage.escolher_uma_opcao_de_processador()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 1483369000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_PesquisarAtravesDaHomePage.confirmar_se_retorna_algum_tablet()"
+});
+formatter.result({
+  "duration": 36277700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Test_PesquisarAtravesDaHomePage.tirar_uma_screenshot()"
+});
+formatter.result({
+  "duration": 462313600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 29200,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 629098200,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 67800,
+  "status": "passed"
 });
 });
