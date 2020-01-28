@@ -38,21 +38,21 @@ formatter.match({
   "location": "Test_CriaConta_Steps.o_usuario_estiver_na_home_do_site()"
 });
 formatter.result({
-  "duration": 11569034700,
+  "duration": 10968618000,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.clicar_no_menu_de_usuarios()"
 });
 formatter.result({
-  "duration": 241894400,
+  "duration": 174236200,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.clicar_em_register()"
 });
 formatter.result({
-  "duration": 114669900,
+  "duration": 124965900,
   "status": "passed"
 });
 formatter.scenario({
@@ -148,117 +148,117 @@ formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_userName()"
 });
 formatter.result({
-  "duration": 1193807400,
+  "duration": 655817600,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_email()"
 });
 formatter.result({
-  "duration": 267350500,
+  "duration": 199529300,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_a_senha()"
 });
 formatter.result({
-  "duration": 130581100,
+  "duration": 106482700,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_confirmarSenha()"
 });
 formatter.result({
-  "duration": 149412400,
+  "duration": 119506800,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_primeiroNome()"
 });
 formatter.result({
-  "duration": 196672100,
+  "duration": 143555500,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_ultimoNome()"
 });
 formatter.result({
-  "duration": 127484300,
+  "duration": 118189700,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_telefone()"
 });
 formatter.result({
-  "duration": 264434600,
+  "duration": 155422300,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_a_cidade()"
 });
 formatter.result({
-  "duration": 154678500,
+  "duration": 133119500,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_pais()"
 });
 formatter.result({
-  "duration": 1100675500,
+  "duration": 1762223600,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_endereco()"
 });
 formatter.result({
-  "duration": 281318800,
+  "duration": 173656100,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_estadoEMais()"
 });
 formatter.result({
-  "duration": 253939500,
+  "duration": 127179100,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_cep()"
 });
 formatter.result({
-  "duration": 177329100,
+  "duration": 124421300,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.clico_no_botao_de_concorda()"
 });
 formatter.result({
-  "duration": 128872600,
+  "duration": 91475000,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.clico_em_register()"
 });
 formatter.result({
-  "duration": 134790700,
+  "duration": 91232400,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.confirmo_se_fui_cadastrado_com_sucesso_tiro_uma_screenShot()"
 });
 formatter.result({
-  "duration": 1505330600,
+  "duration": 1690986000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 127200,
+  "duration": 45100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 56600,
+  "duration": 617171000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 661876600,
+  "duration": 114400,
   "status": "passed"
 });
 formatter.background({
@@ -287,21 +287,21 @@ formatter.match({
   "location": "Test_CriaConta_Steps.o_usuario_estiver_na_home_do_site()"
 });
 formatter.result({
-  "duration": 10175778700,
+  "duration": 9941854700,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.clicar_no_menu_de_usuarios()"
 });
 formatter.result({
-  "duration": 153018500,
+  "duration": 92175000,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.clicar_em_register()"
 });
 formatter.result({
-  "duration": 129093300,
+  "duration": 225350100,
   "status": "passed"
 });
 formatter.scenario({
@@ -397,117 +397,117 @@ formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_userName()"
 });
 formatter.result({
-  "duration": 424830500,
+  "duration": 197021300,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_email()"
 });
 formatter.result({
-  "duration": 478895100,
+  "duration": 217919600,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_a_senha()"
 });
 formatter.result({
-  "duration": 151582100,
+  "duration": 139664300,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_confirmarSenha()"
 });
 formatter.result({
-  "duration": 162662900,
+  "duration": 117639500,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_primeiroNome()"
 });
 formatter.result({
-  "duration": 209392300,
+  "duration": 125354800,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_ultimoNome()"
 });
 formatter.result({
-  "duration": 167115900,
+  "duration": 110647600,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_telefone()"
 });
 formatter.result({
-  "duration": 214561800,
+  "duration": 198733900,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_a_cidade()"
 });
 formatter.result({
-  "duration": 150968900,
+  "duration": 149491200,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_pais()"
 });
 formatter.result({
-  "duration": 1542687300,
+  "duration": 2132036600,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_endereco()"
 });
 formatter.result({
-  "duration": 262736400,
+  "duration": 171606600,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_estadoEMais()"
 });
 formatter.result({
-  "duration": 202295200,
+  "duration": 124851800,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.preencho_o_cep()"
 });
 formatter.result({
-  "duration": 174296400,
+  "duration": 120660900,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.clico_no_botao_de_concorda()"
 });
 formatter.result({
-  "duration": 179884300,
+  "duration": 98683300,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.clico_em_register()"
 });
 formatter.result({
-  "duration": 129675500,
+  "duration": 94625300,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_CriaConta_Steps.confirmo_se_nao_foi_cadastrado_tiro_uma_screenshot()"
 });
 formatter.result({
-  "duration": 956700800,
+  "duration": 818532100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 37500,
+  "duration": 18200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 25300,
+  "duration": 614132900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 658091400,
+  "duration": 82700,
   "status": "passed"
 });
 formatter.uri("PesquisaLupa.feature");
@@ -545,14 +545,14 @@ formatter.match({
   "location": "Test_PesquisaProdutoLupa.que_estou_na_home_do_site()"
 });
 formatter.result({
-  "duration": 10298788100,
+  "duration": 10109580400,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.eu_clicar_no_icone_da_lupa()"
 });
 formatter.result({
-  "duration": 151051400,
+  "duration": 70531900,
   "status": "passed"
 });
 formatter.scenario({
@@ -598,47 +598,47 @@ formatter.match({
   "location": "Test_PesquisaProdutoLupa.escrever_o_nome_de_um_produto()"
 });
 formatter.result({
-  "duration": 486758000,
+  "duration": 227273600,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.fechar_a_lupa()"
 });
 formatter.result({
-  "duration": 668692900,
+  "duration": 752330100,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.clicar_em_um_produto()"
 });
 formatter.result({
-  "duration": 124614000,
+  "duration": 87428600,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.confirmar_se_estou_na_pagina_do_produto()"
 });
 formatter.result({
-  "duration": 251941400,
+  "duration": 195091900,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.tiro_a_ScreenShot()"
 });
 formatter.result({
-  "duration": 388529800,
+  "duration": 287574600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 655055000,
+  "duration": 1025531000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 25600,
+  "duration": 15200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 7400,
+  "duration": 8000,
   "status": "passed"
 });
 formatter.background({
@@ -662,14 +662,14 @@ formatter.match({
   "location": "Test_PesquisaProdutoLupa.que_estou_na_home_do_site()"
 });
 formatter.result({
-  "duration": 10333663000,
+  "duration": 10024182800,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.eu_clicar_no_icone_da_lupa()"
 });
 formatter.result({
-  "duration": 72149000,
+  "duration": 76862800,
   "status": "passed"
 });
 formatter.scenario({
@@ -705,33 +705,33 @@ formatter.match({
   "location": "Test_PesquisaProdutoLupa.escrever_o_nome_de_um_produto_inexistente()"
 });
 formatter.result({
-  "duration": 194758700,
+  "duration": 150559400,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.confirmo_se_nao_tem_nenhum_produto_na_tela()"
 });
 formatter.result({
-  "duration": 186714000,
+  "duration": 427981600,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisaProdutoLupa.tiro_uma_ScreenShot()"
 });
 formatter.result({
-  "duration": 1504590400,
+  "duration": 1313265000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 686854000,
+  "duration": 617498300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 58700,
+  "duration": 33200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 38900,
+  "duration": 19000,
   "status": "passed"
 });
 formatter.uri("PesquisarNaHomePage.feature");
@@ -769,14 +769,14 @@ formatter.match({
   "location": "Test_PesquisarAtravesDaHomePage.que_estou_na_pagina_inicial_do_site()"
 });
 formatter.result({
-  "duration": 10303241400,
+  "duration": 9979924400,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisarAtravesDaHomePage.eu_clicar_em_tablet()"
 });
 formatter.result({
-  "duration": 96927400,
+  "duration": 84282700,
   "status": "passed"
 });
 formatter.scenario({
@@ -812,33 +812,33 @@ formatter.match({
   "location": "Test_PesquisarAtravesDaHomePage.selecionar_um_dos_tablets_da_lista()"
 });
 formatter.result({
-  "duration": 515795500,
+  "duration": 503374700,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisarAtravesDaHomePage.confirmar_que_foi_selecionado()"
 });
 formatter.result({
-  "duration": 200619600,
+  "duration": 405863200,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisarAtravesDaHomePage.confirmo_com_uma_ScreenShot()"
 });
 formatter.result({
-  "duration": 324252100,
+  "duration": 309750800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 17000,
+  "duration": 19700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 684051200,
+  "duration": 7700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 27600,
+  "duration": 605203300,
   "status": "passed"
 });
 formatter.background({
@@ -862,14 +862,14 @@ formatter.match({
   "location": "Test_PesquisarAtravesDaHomePage.que_estou_na_pagina_inicial_do_site()"
 });
 formatter.result({
-  "duration": 10181791600,
+  "duration": 10032685200,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisarAtravesDaHomePage.eu_clicar_em_tablet()"
 });
 formatter.result({
-  "duration": 121290500,
+  "duration": 77981200,
   "status": "passed"
 });
 formatter.scenario({
@@ -910,40 +910,40 @@ formatter.match({
   "location": "Test_PesquisarAtravesDaHomePage.escolher_uma_opcao_de_tamanho_de_tela()"
 });
 formatter.result({
-  "duration": 911711300,
+  "duration": 637137600,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisarAtravesDaHomePage.escolher_uma_opcao_de_processador()"
 });
 formatter.result({
-  "duration": 1483369000,
+  "duration": 1365806300,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisarAtravesDaHomePage.confirmar_se_retorna_algum_tablet()"
 });
 formatter.result({
-  "duration": 36277700,
+  "duration": 25639800,
   "status": "passed"
 });
 formatter.match({
   "location": "Test_PesquisarAtravesDaHomePage.tirar_uma_screenshot()"
 });
 formatter.result({
-  "duration": 462313600,
+  "duration": 401559700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 29200,
+  "duration": 18500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 629098200,
+  "duration": 12800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 67800,
+  "duration": 612832200,
   "status": "passed"
 });
 });
